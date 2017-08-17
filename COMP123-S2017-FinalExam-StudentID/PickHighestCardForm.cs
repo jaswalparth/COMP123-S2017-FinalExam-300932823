@@ -11,11 +11,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 /*
- * Name:
- * Date:
- * StudentID:
+ * Name: Parth Jaswal
+ * Date: Aug 17 2017
+ * StudentID: 300932823
  * Description:
- * Version:
+ * Version: 0.2
  */
 
 namespace COMP123_S2017_FinalExam_StudentID
@@ -358,7 +358,7 @@ namespace COMP123_S2017_FinalExam_StudentID
         /// <param name="e"></param>
         private void CountDownTimer_Tick(object sender, EventArgs e)
         {
-            /* Uncomment THIS
+           /*
             ScoreBoard.UpdateTime();
             if (ScoreBoard.Time == 0)
             {
@@ -396,6 +396,11 @@ namespace COMP123_S2017_FinalExam_StudentID
         private void ExitButton_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void TimeLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
