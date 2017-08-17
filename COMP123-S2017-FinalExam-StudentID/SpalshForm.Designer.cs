@@ -53,7 +53,7 @@
             this.Name = "SpalshForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SpalshForm";
-            this.Load += new System.EventHandler(this.SpalshForm_Load);
+            this.Load += new System.EventHandler(this.SpalshForm_Click);
             this.ResumeLayout(false);
 
         }

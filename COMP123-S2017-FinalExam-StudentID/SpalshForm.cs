@@ -31,7 +31,7 @@ namespace COMP123_S2017_FinalExam_StudentID
             pick.Show();
         }
 
-        private void SpalshForm_Load(object sender, EventArgs e)
+        private void SpalshForm_Click(object sender, EventArgs e)
         {
 
         }
